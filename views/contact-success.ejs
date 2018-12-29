@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <link rel="stylesheet" href="/public/css/bootstrap.css">
+</head>
+<body>
+    <% include partials/nav.ejs %>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 offset-md-2">
+                    <h1>Register</h1> <br>
+                    <p>Thanks for signing up</p>
+                    <p>Your username is <%= data.username %></p>
+                    <p>Your password is <%= data.password %></p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

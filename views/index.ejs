@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <link rel="stylesheet" href="/public/css/bootstrap.css">
+    <script src="/public/js/socket.io.js" charset="utf-8"></script>
+</head>
+<body>
+    <main>
+        <% include partials/nav.ejs %>
+        <div class="container">
+            <div class="row">
+                <h3 class="mt-5">Welcome to Google Homepage</h3>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="/public/js/jquery.js"></script>
+<script src="/public/js/script.js"></script>
+<script>
+  const ws = io();
+</script>
+</html>
